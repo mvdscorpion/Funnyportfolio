@@ -1,0 +1,26 @@
+.wrapper{
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.wrapper__title{
+    color: blue;
+}
+
+.wrapper__subtitle{
+    color: yellow;
+    font-size: 100px;
+}
+
+.wrapper__btn{
+    background: green;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 0 1px orange;
+    cursor: pointer;
+}
+
+.wrapper__btn:hover{
+    transform: translateX(-1px);
+}
+
